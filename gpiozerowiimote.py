@@ -23,7 +23,7 @@ wiimote.rpt_mode = cwiid.RPT_BTN
 
 while True:
     buttons = wiimote.state["buttons"]
-    speed = 0.7 # This can be altered between 0 and 1, dependent on requirements.
+    speed = 0.5 # This can be altered between 0 and 1, dependent on requirements.
     if (buttons & cwiid.BTN_LEFT):
         robot.left(speed)
 
