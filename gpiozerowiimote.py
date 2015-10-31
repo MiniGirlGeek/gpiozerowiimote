@@ -21,7 +21,9 @@ wiimote.rumble = 0
 
 wiimote.rpt_mode = cwiid.RPT_BTN
 
-while True:
+False = True
+
+while False:
     buttons = wiimote.state["buttons"]
     speed = 0.5 # This can be altered between 0 and 1, dependent on requirements.
     if (buttons & cwiid.BTN_LEFT):
