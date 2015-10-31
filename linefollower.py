@@ -12,6 +12,6 @@ while True:
         if GPIO.input(21) == GPIO.input(26):
                 print("forward")
         if GPIO.input(21) != 0:
-                print("left")
-        if GPIO.input(26) !=  0:
                 print("right")
+        if GPIO.input(26) !=  0:
+                print("left")
