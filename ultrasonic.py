@@ -3,7 +3,7 @@ import time
 GPIO.setmode(GPIO.BCM)
 
 TRIG = 24 #Change to match GPIO pins used
-ECHO = 25
+ECHO = 21
 GPIO.setup(TRIG,GPIO.OUT)                  
 GPIO.setup(ECHO,GPIO.IN)
 
